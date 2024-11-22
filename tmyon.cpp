@@ -8,7 +8,7 @@ double T_mu (double Emu_Gev) {
 	return gammaL * Tau_mu;
 }
 
-void Czas_obserwowania_mionu() {
+void tmyon() {
         TF1* f_Tmu = new TF1("f_Tmu", "T_mu(x)", 0, 100);
         f_Tmu->Draw();
 }
