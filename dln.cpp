@@ -1,7 +1,7 @@
   TMarker* mk[64];
   TF1 *fln, *fne;
 
- void Pochodna_Ln(void)
+ void dln(void)
  {
   double dx = 1e-6;
   fln = new TF1("fln", "log(x)", dx, 5);

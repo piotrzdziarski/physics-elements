@@ -1,7 +1,7 @@
   TMarker* mk[64];
   TF1 *fe, *fne;
 
- void Pochodna_Exp(void)
+ void dexp(void)
  {
   fe = new TF1("fe", "exp(-x)", 0.0, 5);
   fe->Draw();

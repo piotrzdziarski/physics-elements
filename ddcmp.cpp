@@ -1,7 +1,6 @@
-  GNU nano 6.2                                                                                    Pochodna_Rozpad.C                                                                                              //  TMarker* mk[64];
 TF1 *fe, *fex;
 
-void Pochodna_Rozpad(void)
+void ddcmp(void)
 {
   double ul = 9.0;
   fe = new TF1("fe", "exp(-2.5*x)", 0.0, ul);
@@ -14,7 +13,7 @@ void Pochodna_Rozpad(void)
   fex->SetNpx(1.e9);
   fex->Draw("same");
   double Ixexp = fex->Integral(.0, ul);
-  cout << Iexp << endl << Ixexp << endl << Ixexp / Iexp;
+  //cout << Iexp << endl << Ixexp << endl << Ixexp / Iexp;
 }
 
 
