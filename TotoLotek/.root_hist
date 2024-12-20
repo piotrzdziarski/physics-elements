@@ -1,0 +1,209 @@
+.x Rnd_Test_01.C
+.x Rnd_Test_01.C
+.x Rnd_Test_01.C
+.x Rnd_Test_01.C
+.q
+.L TRand.cpp
+.L TRand.cpp
+.x Rnd_Test_01.C
+.q
+.L TRand.cpp
+.x Rnd_Test_01.C
+.q
+.L TRand.cpp
+.x Rnd_Test_01.C
+.x Rnd_Test_01.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_03.C
+.q
+.L TRand.cpp
+.x Rnd_Test_03.C
+.x Rnd_Test_03.C
+.q
+.L TRand.cpp
+.x Rnd_Test_04.C
+.q
+.q
+.L TRand.cpp
+TRand * R
+R = new TRand()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+R->rnd()
+.q
+.L TRand.cpp
+TRand * R
+R = new TRand(183921103)
+R->rnd()
+R->rnd()
+R->rnd()
+.L TRand.cpp
+TRand * R
+R = new TRand(183921103)
+R->rnd()
+R->rnd()
+R->rnd()
+.q
+.L TRand.cpp
+TRand * R
+R = new TRand(183921102)
+R->rnd()
+.q
+.q
+.L TRand.cpp
+.x Rnd_Test_01.C
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+:q
+.q
+.L TRand.cpp
+.x Rnd_Test_01.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_02.C
+.q
+.L TRand.cpp
+.x Rnd_Test_03.C
+.q
+.L TRand.cpp
+.x Rnd_Test_04.C
+.q
+.L TRand.cpp 
+.x Rnd_Test_01.C 
+.q
+.L TRand.cpp 
+.x Rnd_Test_01.C 
+.q
+.L TRand.cpp 
+.x Rnd_Test_02.C 
+.q
+.L TRand.cpp 
+.x Rnd_Test_02.C 
+.q
+.L TRand.cpp 
+.x Rnd_Test_03.C 
+.q
+.L TRand.cpp 
+.x Rnd_Test_03.C 
+.a
+.q
+.L TRand.cpp+
+.L Rnd_Test_03.C+ 
+Rnd_Test_03()
+.q
+.L TRand.cpp+
+.L Rnd_Test_03.C+ 
+Rnd_Test_03()
+.q
+.L TRand.cpp+
+.x Rnd_Test_04.C 
+.q
+.L TRand.cpp+
+.! ls
+.L TotoLotek_01.C+
+.L TotoLotek_01.C+
+.q
+.L TRand.cpp+
+.L TotoLotek_01.C+
+TotoLotek_01()
+.q
+.L TRand.cpp+
+.L TotoLotek_01.C+
+TotoLotek_01()
+365.0 / 7
+.q
+.L TRand.cpp+
+.L TotoLotek_02.C+
+.L TotoLotek_02.C+
+.L TotoLotek_02.C+
+.L TotoLotek_02.C+
+.q
+.L TRand.cpp+
+.L TotoLotek_02.C+
+TotoLotek_02()
+.q
+.L TRand.cpp+
+TotoLotek_02()
+.x TotoLotek_02()
+.q
+.L TRand.cpp+
+.x TotoLotek_02.C
+.q
+.L TRand.cpp+
+.x TotoLotek_02.C
+.q
+.L TRand.cpp+
+.x TotoLotek_02.C+
+Skaluj()
+.q
+.L TRand.cpp+
+.L TotoLotek_02.C+
+TotoLotek_02()
+Skaluj()
+.q
+.L TRand.cpp+
+.L TotoLotek_03.C+
+TotoLotek_03()
+TMath::PoissonI(2, 0.8462) * 52
+TMath::PoissonI(0, 0.8462) * 52
+TMath::PoissonI(4, 0.8462) * 52
+TMath::PoissonI(11, 0.8462) * 52
+.q
+.L TRand.cpp+
+.L TotoLotek_03.C+
+TotoLotek_03()
+TMath::PoissonI(1, 0.8462) * 52
+.q
